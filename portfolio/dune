@@ -1,0 +1,4 @@
+(library
+ (name trading_portfolio)
+ (public_name trading_ocaml.portfolio)
+ (libraries trading_ocaml.core))

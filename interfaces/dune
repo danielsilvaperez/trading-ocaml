@@ -1,0 +1,5 @@
+(library
+ (name trading_interfaces)
+ (public_name trading_ocaml.interfaces)
+ (preprocess (pps lwt_ppx))
+ (libraries trading_ocaml.core trading_ocaml.engine trading_ocaml.portfolio lwt dream))

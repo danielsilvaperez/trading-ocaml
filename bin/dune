@@ -1,0 +1,16 @@
+(executable
+ (name main)
+ (public_name trading-ocaml)
+ (libraries
+  cmdliner
+  lwt
+  lwt.unix
+  trading_ocaml.core
+  trading_ocaml.venues
+  trading_ocaml.strategy
+  trading_ocaml.risk
+  trading_ocaml.portfolio
+  trading_ocaml.engine
+  trading_ocaml.backtest
+  trading_ocaml.simulation
+  trading_ocaml.interfaces))

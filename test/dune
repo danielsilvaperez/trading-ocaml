@@ -1,0 +1,7 @@
+(test
+ (name test_domain)
+ (libraries alcotest trading_ocaml.core trading_ocaml.portfolio))
+
+(test
+ (name test_risk_prop)
+ (libraries qcheck trading_ocaml.core trading_ocaml.risk trading_ocaml.portfolio))

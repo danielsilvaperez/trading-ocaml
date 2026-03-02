@@ -1,0 +1,14 @@
+# YAML-like flat config parser for this scaffold.
+mode: paper
+initial_capital: 250000
+venues: robinhood,coinbase,alpaca,binance,paper
+web_port: 8080
+telegram_token: demo-token
+max_position_size: 0.10
+max_capital_per_asset_class: 0.60
+max_daily_drawdown: 0.05
+max_intraday_loss: 0.03
+kelly_cap: 0.20
+volatility_target: 0.15
+circuit_breaker_enabled: true
+strategy_symbols: BTC-USD,ETH-USD,AAPL,MSFT

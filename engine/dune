@@ -1,0 +1,12 @@
+(library
+ (name trading_engine)
+ (public_name trading_ocaml.engine)
+ (preprocess (pps lwt_ppx))
+ (libraries
+  trading_ocaml.core
+  trading_ocaml.venues
+  trading_ocaml.strategy
+  trading_ocaml.risk
+  trading_ocaml.portfolio
+  lwt
+  lwt.unix))

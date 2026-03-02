@@ -1,0 +1,4 @@
+(library
+ (name trading_core)
+ (public_name trading_ocaml.core)
+ (libraries lwt ptime ptime.clock.os logs logs.fmt fmt))

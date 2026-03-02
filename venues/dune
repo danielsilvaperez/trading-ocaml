@@ -1,0 +1,6 @@
+(library
+ (name trading_venues)
+ (public_name trading_ocaml.venues)
+ (modules_without_implementation venue_intf)
+ (preprocess (pps lwt_ppx))
+ (libraries trading_ocaml.core lwt lwt.unix))

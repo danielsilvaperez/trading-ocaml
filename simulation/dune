@@ -1,0 +1,4 @@
+(library
+ (name trading_simulation)
+ (public_name trading_ocaml.simulation)
+ (libraries trading_ocaml.core trading_ocaml.portfolio))

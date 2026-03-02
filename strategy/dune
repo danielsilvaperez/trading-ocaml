@@ -1,0 +1,5 @@
+(library
+ (name trading_strategy)
+ (public_name trading_ocaml.strategy)
+ (modules_without_implementation strategy_intf)
+ (libraries trading_ocaml.core))

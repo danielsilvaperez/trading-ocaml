@@ -1,0 +1,4 @@
+(library
+ (name trading_backtest)
+ (public_name trading_ocaml.backtest)
+ (libraries trading_ocaml.core trading_ocaml.strategy trading_ocaml.risk trading_ocaml.portfolio trading_ocaml.engine))
